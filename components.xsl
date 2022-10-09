@@ -146,7 +146,7 @@
 		</xsl:variable>
 		<xsl:variable name="border">
 			<xsl:choose>
-				<xsl:when test="@border = '1'">border:1px solid black;border-radius:15px;</xsl:when>
+				<xsl:when test="@border = '1'"></xsl:when>
 				<xsl:when test="@border">border:<xsl:value-of select="@border"/>;</xsl:when>
 				<xsl:otherwise/>
 			</xsl:choose>
@@ -220,7 +220,7 @@
 			<xsl:if test="$component != 'machine'">
 				<xsl:apply-templates select="name" mode="component"/>
 			</xsl:if>
-			<div class="{$CSSCLASS}-container" style="{$border}{$style}">
+			<div class="{$CSSCLASS}-container">
 				<xsl:if test="$component = 'machine'">
 					<xsl:apply-templates select="menu" mode="machine"/>
 				</xsl:if>
@@ -233,7 +233,7 @@
 				<xsl:if test="$class != '' and $component != 'machine'">
 					<div class="{$objectClass}" data-value="{{id:'{$id}',name:'{$name}'{$comment}{$parms}}}">
 						<xsl:if test="$class = 'video'">
-							<canvas class="pcjs-canvas" width="{$screenWidth}" height="{$screenHeight}" style="height: auto; background-color: black;"></canvas>
+							<canvas class="pcjs-canvas" width="{$screenWidth}" height="{$screenHeight}" style=""></canvas>
 						</xsl:if>
 					</div>
 				</xsl:if>
@@ -1525,7 +1525,7 @@
 	</xsl:template>
 
 	<xsl:template name="displayMachine">
-		<pre>&lt;machine<xsl:call-template name="displayAttr"/>&gt;<xsl:apply-templates mode="display"/>&lt;/machine&gt;</pre>
+		
 	</xsl:template>
 
 	<xsl:template match="*" mode="display"><xsl:param name="indent" select="''"/><xsl:call-template name="displayXML"><xsl:with-param name="tag" select="name(.)"/><xsl:with-param name="indent" select="$indent"/></xsl:call-template></xsl:template>

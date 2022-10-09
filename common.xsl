@@ -10,6 +10,7 @@
 	<xsl:output method="html"/>
 
 	<xsl:template name="commonStyles">
+	
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="initial-scale=1"/>
@@ -25,7 +26,8 @@
 		<link rel="shortcut icon" href="/assets/icons/favicon.ico"/>
 		<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5"/>
 		<link rel="stylesheet" type="text/css" href="/css/common.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"/>
+
+
 	</xsl:template>
 
 	<xsl:template name="commonTop">

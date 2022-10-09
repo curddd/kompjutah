@@ -67,10 +67,7 @@ pre a, code a {
 .machine {
     overflow: hidden;
 }
-.pcjs-canvas {
-  width: 100%;
-  height: auto;
-}
+
 .machine-placeholder {
     text-align: center;
     font-weight: bold;

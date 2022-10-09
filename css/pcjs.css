@@ -91,10 +91,7 @@
   clear: both;
   padding-bottom: 8px;
 }
-.pcjs-canvas {
-  width: 100%;
-  height: auto;
-}
+
 .pcjs-container {
   color: #000000;
   position: relative;
