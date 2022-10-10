@@ -24,7 +24,7 @@
 
 	<xsl:template name="componentScripts">
 		<xsl:param name="component"/>
-		<script src="/main-js/{$component}.js"> </script>
+		<script src="/main-js/{$component}-uncompiled.js"> </script>
 	</xsl:template>
 
 	<xsl:template name="componentIncludes">

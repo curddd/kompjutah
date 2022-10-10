@@ -1,0 +1,175 @@
+{
+    "empty": {
+      "@hidden": false,
+      "@title": "Empty Diskettes",
+      "@versions": {
+        "": {
+          "@media": [
+            {
+              "@title": "Empty Diskette (160K)",
+              "@diskette": "EMPTY-160K.json",
+              "@format": "PC160K"
+            },
+            {
+              "@title": "Empty Diskette (320K)",
+              "@diskette": "EMPTY-320K.json",
+              "@format": "PC320K"
+            },
+            {
+              "@title": "Empty Diskette (180K)",
+              "@diskette": "EMPTY-180K.json",
+              "@format": "PC180K"
+            },
+            {
+              "@title": "Empty Diskette (360K)",
+              "@diskette": "EMPTY-360K.json",
+              "@format": "PC360K"
+            },
+            {
+              "@title": "Empty Diskette (720K)",
+              "@diskette": "EMPTY-720K.json",
+              "@format": "PC720K"
+            },
+            {
+              "@title": "Empty Diskette (1.2M)",
+              "@diskette": "EMPTY-1200K.json",
+              "@format": "PC1200K"
+            },
+            {
+              "@title": "Empty Diskette (1.44M)",
+              "@diskette": "EMPTY-1440K.json",
+              "@format": "PC1440K"
+            }
+          ]
+        }
+      }
+    },
+    "sys": {
+      "@title": "Systems",
+      "dos": {
+        "@title": "DOS",
+          "microsoft": {
+            "@title": "MS-DOS",
+            "@versions": {
+              "3.30": {
+                "@title": "MS-DOS 3.30",
+                "@bootable": true,
+                "@media": [
+                  {
+                    "@title": "MS-DOS 3.30 (Disk 1)",
+                    "@diskette": "MSDOS330-DISK1.json",
+                    "@format": "PC360K"
+                  },
+                  {
+                    "@title": "MS-DOS 3.30 (Disk 2)",
+                    "@diskette": "MSDOS330-DISK2.json",
+                    "@format": "PC360K"
+                  }
+                ]
+              },
+              "6.22": {
+                "@title": "MS-DOS 6.22",
+                "@bootable": true,
+                "@media": [
+                  {
+                    "@title": "MS-DOS 6.22 (1.2M Boot)",
+                    "@diskette": "MSDOS622-1200K-BOOT.json",
+                    "@format": "PC1200K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.2M Disk 1)",
+                    "@diskette": "MSDOS622-1200K-DISK1.json",
+                    "@format": "PC1200K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.2M Disk 2)",
+                    "@diskette": "MSDOS622-1200K-DISK2.json",
+                    "@format": "PC1200K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.2M Disk 3)",
+                    "@diskette": "MSDOS622-1200K-DISK3.json",
+                    "@format": "PC1200K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.2M Disk 4)",
+                    "@diskette": "MSDOS622-1200K-DISK4.json",
+                    "@format": "PC1200K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.44M Disk 1)",
+                    "@diskette": "MSDOS622-1440K-DISK1.json",
+                    "@format": "PC1440K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.44M Disk 2)",
+                    "@diskette": "MSDOS622-1440K-DISK2.json",
+                    "@format": "PC1440K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.44M Disk 3)",
+                    "@diskette": "MSDOS622-1440K-DISK3.json",
+                    "@format": "PC1440K"
+                  },
+                  {
+                    "@title": "MS-DOS 6.22 (1.44M Supp)",
+                    "@diskette": "MSDOS622-1440K-SUPPDISK.json",
+                    "@format": "PC1440K"
+                  }
+                ]
+              }
+            }
+          }
+      }
+    },
+    "windows": {
+    "@title": "Windows",
+    "@versions": {
+      "3.11": {
+        "@title": "Windows for Workgroups 3.11",
+        "@media": [
+          {
+            "@title": "Windows 3.11 (Disk 1)",
+            "@diskette": "WFW311_DISK1.json",
+            "@format": "PC1440K"
+          },
+          {
+            "@title": "Windows 3.11 (Disk 2)",
+            "@diskette": "WFW311_DISK2.json",
+            "@format": "PC1440K"
+          },
+          {
+            "@title": "Windows 3.11 (Disk 3)",
+            "@diskette": "WFW311_DISK3.json",
+            "@format": "PC1440K"
+          },
+          {
+            "@title": "Windows 3.11 (Disk 4)",
+            "@diskette": "WFW311_DISK4.json",
+            "@format": "PC1440K"
+          },
+          {
+            "@title": "Windows 3.11 (Disk 5)",
+            "@diskette": "WFW311_DISK5.json",
+            "@format": "PC1440K"
+          },
+          {
+            "@title": "Windows 3.11 (Disk 6)",
+            "@diskette": "WFW311_DISK6.json",
+            "@format": "PC1440K"
+          },
+          {
+            "@title": "Windows 3.11 (Disk 7)",
+            "@diskette": "WFW311_DISK7.json",
+            "@format": "PC1440K"
+          },
+          {
+            "@title": "Windows 3.11 (Disk 8)",
+            "@diskette": "WFW311_DISK8.json",
+            "@format": "PC1440K"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1022,4 +1022,4 @@ function BG(a,b){var c,d,e=b[0],f=b[1];var g=b[4];if(g=g.match(/^(\s*\(function\
 f),a=a+(', copy it to your web server as "'+f+'", and then add the following to your web page:\n\n<div id="')+(e+'"></div>\n<script src="')+(f+'">\x3c/script>\n<script>embedPCx86("')+(e+'","'+(c+'","')+(d+'");\x3c/script>\n\nThe machine should appear where the <div> is located.')),mb(a)):mb("This feature is not currently available for machines created directly from XML files.")}else mb("Unsupported script")}
 window.savePC=function(a,b,c){var d=Zb("Computer",a);if(d){var e=sF(d,!0),f=d.L?JSON.stringify(d.L):null;b||(b="/machines/pcx86/releases/2.07/pcx86.js");if(c&&c({state:e,xi:f}))return!0;kb(b,null,!0,function(g,h,k){AG(g,h,k,[a,La(b,!0),f,e])});return!0}mb("Unable to identify machine '"+a+"'");return!1};})()
 
-//# sourceMappingURL=pcx86.js.map
+//# sourceMappingURL=/main-js/pcx86.js.map

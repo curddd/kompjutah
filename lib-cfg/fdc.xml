@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fdc id="fdcNEC" autoMount='{A:{name:"MS-DOS 3.30 (Disk 1)"}, B:{name:"MS-DOS 3.30 (Disk 2)"}}' diskettes="/lib-cfg/diskettes_short.json" server="/diskettes" sortBy="name" pos="left" padLeft="8px" padBottom="8px">
+	<control type="list" binding="listDrives"/>
+	<control type="list" binding="listDisks"/>
+	<control type="button" binding="loadDisk">Load</control>
+	<control type="button" binding="saveDisk" padRight="8px">Save</control>
+	<control type="description" binding="descDisk" padRight="8px"/>
+	<control id="select_file" type="file" binding="mountDisk"/>
+</fdc>
